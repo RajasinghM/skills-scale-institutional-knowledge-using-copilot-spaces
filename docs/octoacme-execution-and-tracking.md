@@ -10,6 +10,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
+  - **QA Column**: Represents items undergoing quality validation. The QA Lead (if assigned) owns and coordinates this stage, ensuring acceptance criteria are validated through appropriate testing (manual, automated, or both). If no QA Lead is assigned, Developers and Product Manager share responsibility for validating acceptance criteria before moving items to Done.
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
@@ -32,6 +33,21 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Level 1: Team-level triage in daily standup
 - Level 2: PM escalates to Product Lead and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
+
+## Documentation Updates During Execution
+
+Documentation should be kept current as features are developed and changes are made. Clear ownership ensures documentation doesn't fall behind.
+
+**Ownership models** (choose based on your [Roles & Handoffs Checklist](octoacme-roles-and-handoffs-checklist.md)):
+- **Technical Writer assigned**: Technical Writer is the primary owner, working with Developers to document features, APIs, and configuration changes. Developers provide technical details and review for accuracy.
+- **Shared responsibility**: Developers own inline code documentation and README updates. Product Manager or Project Manager owns user-facing guides and process docs.
+
+**Best practices:**
+- Include documentation tasks in Definition of Done
+- Update docs in the same PR as code changes when feasible
+- Tag documentation updates in PR descriptions for visibility
+- Review documentation during sprint demos to catch gaps
+- Refer to [OctoAcme Roles and Personas](octoacme-roles-and-personas.md) for detailed Technical Writer responsibilities
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo

@@ -27,7 +27,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Primary stakeholders:
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
-- Proposed team / roles:
+- Proposed team / roles: (See [OctoAcme Roles and Personas](octoacme-roles-and-personas.md) for guidance on role selection)
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
@@ -35,6 +35,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] Complete [Roles & Handoffs Checklist](octoacme-roles-and-handoffs-checklist.md) to confirm staffing and communication plan
 
 ## Decision Gate
 Move to planning when:

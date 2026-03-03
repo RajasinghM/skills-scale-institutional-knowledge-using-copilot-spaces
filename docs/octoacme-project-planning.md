@@ -12,9 +12,13 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 1. Kickoff meeting with stakeholders and delivery team
 2. Create prioritized backlog with acceptance criteria
 3. Estimate scope (T-shirt sizing or story points)
-4. Define Definition of Done (DoD)
-5. Identify dependencies and integration points
-6. Create release plan and milestone map
+4. Define Definition of Done (DoD) — include quality criteria such as code review, unit tests, integration tests, and acceptance validation by QA Lead or Product Manager
+5. Define QA approach — clarify test plan ownership (QA Lead or Developers), testing types (unit, integration, E2E), and acceptance criteria validation process
+6. Define documentation plan — assign ownership for technical docs (Technical Writer or Developers), release notes (Technical Writer, Product Manager, or Project Manager), and user guides
+7. Identify dependencies and integration points
+8. Create release plan and milestone map
+9. Complete [RACI-Lite Template](octoacme-raci-lite-template.md) to clarify ownership for key activities
+10. Review [Roles & Handoffs Checklist](octoacme-roles-and-handoffs-checklist.md) if not completed during initiation
 
 ## Backlog Item Template
 - Title:
@@ -39,5 +43,8 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Project kickoff held
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
-- [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- [ ] Definition of Done documented (including quality and testing criteria)
+- [ ] QA approach and test plan drafted (ownership assigned to QA Lead or Developers)
+- [ ] Documentation plan established (ownership assigned to Technical Writer, Developers, or PM)
+- [ ] [RACI-Lite Template](octoacme-raci-lite-template.md) completed for key activities
+- [ ] [Roles & Handoffs Checklist](octoacme-roles-and-handoffs-checklist.md) reviewed and confirmed
