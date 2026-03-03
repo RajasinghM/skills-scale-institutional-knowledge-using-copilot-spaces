@@ -11,7 +11,7 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
-- Release notes drafted
+- Release notes drafted (ownership: Technical Writer, Product Manager, or Project Manager — see [OctoAcme Roles and Personas](octoacme-roles-and-personas.md))
 - Rollback / mitigation plan documented
 - Smoke tests prepared
 
@@ -36,3 +36,5 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Notable changes:
 - Migration steps (if any):
 - Known issues:
+
+**Release notes ownership**: Typically assigned to Technical Writer (if available), Product Manager, or Project Manager. Developers provide technical input. Refer to your project's [RACI-Lite Template](octoacme-raci-lite-template.md) or [Roles & Handoffs Checklist](octoacme-roles-and-handoffs-checklist.md) for specific ownership on your team.
